@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ValidaCNPJApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Validador de CNPJ" Width="320" Height="240" ResizeMode="NoResize" SizeToContent="Height" WindowStartupLocation="CenterScreen">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
+        <TextBlock Text="Validador de CNPJ" FontSize="16" FontWeight="Black" Grid.Row="0" Margin="8"/>
+
+        <StackPanel Margin="8" Grid.Row="1">
+            <TextBlock Text="Digite o CNPJ:" FontSize="14" Margin="8"/>
+            <TextBox  Margin="8" FontSize="14"/>
+            <Button Content="Validar" FontSize="14" Margin="8"/>
+        </StackPanel>
+
+        <TextBlock Text="Clique em Validar" Margin="8" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2"/>
+        
     </Grid>
 </Window>
