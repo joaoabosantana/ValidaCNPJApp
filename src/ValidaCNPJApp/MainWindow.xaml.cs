@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ValidaCNPJCore;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace ValidaCNPJApp
 {
@@ -23,6 +11,13 @@ namespace ValidaCNPJApp
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string cnpj = txtCNPJ.Text;
+
+            txtResultado.Text = Validar.CNPJ(cnpj) == true ? "O CNPJ é válido." : "O CNPJ não é válido.";
         }
     }
 }
