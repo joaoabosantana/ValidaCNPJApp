@@ -12,7 +12,7 @@ Este é um aplicativo WPF .NET Core que demonstra o consumo e uso da biblioteca 
 
 | Tela inicial                  | CNPJ válido                | CNPJ inválido                |
 |:-----------------------------:|:--------------------------:|:----------------------------:|
-|![](docs\img\telaprincipal.png)|![](docs\img\cnpjvalido.png)|![](docs\img\cnpjinvalido.png)|
+|![](docs/img/telaprincipal.png)|![](docs/img/cnpjvalido.png)|![](docs/img/cnpjinvalido.png)|
 
 ## Como Obter
 
