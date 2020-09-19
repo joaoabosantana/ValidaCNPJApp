@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ValidaCNPJCore" Version="1.0.0-beta.1" />
+  </ItemGroup>
+
 </Project>
